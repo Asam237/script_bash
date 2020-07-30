@@ -1,7 +1,7 @@
 #!/bin/bash
-echo .Enter the First Number: .
+echo .Entrez le premier nombre : .
 read a
-echo .Enter the Second Number: .
+echo .Entrez le second nombre : .
 read b
 x=$(($a - $b))
 echo $a - $b = $x
