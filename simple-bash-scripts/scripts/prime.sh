@@ -1,5 +1,5 @@
 #!/bin/bash
-echo “Enter Any Number”
+echo “Entrez n\'importe quel nombre: ”
 read n
 i=1
 c=1
@@ -13,5 +13,5 @@ done
 if [ $c -eq 2 ]; then
 	echo “Prime”
 else
-	echo “Not Prime”
+	echo “Non Prime”
 fi
